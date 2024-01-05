@@ -17,3 +17,19 @@ An environment file to store any necessary credentials or API keys.
 Make sure to install the required dependencies using the following:
 
  `pip install langchain streamlit python-dotenv`
+## How to Run
+### 1. Clone the repository:
+
+`git clone https://github.com/Parul2612/Langchain.git`
+
+### 2. Create a virtual environment:
+
+`python -m venv venv``
+`venv\Scripts\Activate\ps1`
+### 3. Install dependencies:
+`pip install -q --upgrade google-generativeai langchain-google-genai python-dotenv`
+
+### 4. Run the Streamlit app:
+`streamlit run app.py`
+
+Open your browser and go to [http://localhost:8501](url) to use the Pets Name Generator.
